@@ -16,7 +16,12 @@ img {
     display:  block;
 }
 
+img[src$=".jpg"]{
+    border-radius:  4px;
+}
+
+
 body {
     font-family:  Arial, Helvetica, sans-serif;
-    color:  #FFF;
+    color:  var(--cor-12);
 }

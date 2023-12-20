@@ -2,13 +2,12 @@
     background-color:  var(--cor-12);
 }
 .header {
-    max-width:  1200px;
-    margin:  0 auto;
     display:  flex;
     justify-content:  space-between;
     align-items:  center;
     flex-wrap:  wrap;
-    padding:  25px;
+    padding-top:  20px;
+    padding-bottom:  20px;
 }
 .header-menu {
     display: flex;

@@ -1,3 +1,10 @@
+.container-max{
+    max-width:  1200px;
+    margin:  0 auto;
+    padding-right:  20px;
+    padding-left:  20px;
+}
+
 .botao {
     padding:  1rem 2rem;
     background:  linear-gradient(
@@ -28,4 +35,24 @@
 
 .dot-gold{
     color:  #FB0;
+}
+
+.link{
+    color:  var(--cor-p1);
+    font:  500 1.5rem/1.5 "Poppins", sans-serif;
+    text-transform:  uppercase;
+    padding:  1rem 0;
+}
+
+.link::after {
+    content:  "";
+    display:  block;
+    width:  100%;
+    height:  4px;
+    background-color:  currentColor;
+    margin-bottom:  20px;
+}
+
+.link:hover {
+    color:  var(--cor-0);
 }
