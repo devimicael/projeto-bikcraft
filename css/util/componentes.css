@@ -19,10 +19,23 @@
     font-weight: bold;
     transition:  .3s;
     font-family: "Poppins";
+    max-width:  max-content;
 }
 .botao:hover{
     background:  linear-gradient(
  #FFB60D, #E59317 
+    );
+}
+
+.botao.secundario{
+    color:  var(--cor-5);
+    background:  linear-gradient(
+        var(--cor-9),  var(--cor-10)
+    );
+}
+.botao.secundario:hover{
+    background:  linear-gradient(
+        var(--cor-8),  var(--cor-9)
     );
 }
 
