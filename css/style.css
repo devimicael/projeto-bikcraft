@@ -13,4 +13,6 @@
 @import "./home/tecnologias.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
-@import "./seguros/seguros.css"
+@import "./seguros/seguros.css";
+
+@import "./termos/termos.css";
