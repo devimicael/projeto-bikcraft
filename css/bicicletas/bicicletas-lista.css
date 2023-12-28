@@ -1,6 +1,10 @@
 .bicicletas-listas{
     padding:  120px 0;
 }
+
+#bicicletas-interna .bicicletas-listas  {
+    padding:  20px;
+}
 .bicicletas-listas > h2 {
     padding-left:  20px;
     padding-right:  20px;
