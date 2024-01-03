@@ -1,0 +1,76 @@
+#contato {
+    background:  linear-gradient(
+        var(--cor-11) 500px, var(--cor-0) 0
+    );
+}
+
+.contato {
+    display:  grid;
+    grid-template-columns:  5fr 7fr;
+}
+
+.contato-dados,
+.contato-formulario {
+    padding:  60px;
+    box-shadow:  0 1px 2px rgba(0,0,0,0.2);
+}
+
+.contato-dados {
+    background-color:  var(--cor-12);
+    border-radius:  5px 0 0 5px;
+}
+.contato-formulario {
+    background-color:  var(--cor-0);
+    border-radius:  0 5px  5px 0;
+}
+
+.contato-dados h2{
+    margin-bottom:  60px;
+}
+.contato-endereco ul li a{
+    max-width:  max-content;
+}
+.contato-endereco ul li a:hover {
+    color:  var(--cor-1);
+}
+.contato-endereco ul li:first-child {
+    background-image:  url("../../img/icones/local.svg");
+    background-repeat:  no-repeat;
+    padding-left:  28px;
+}
+
+.contato-endereco ul li:nth-child(2){
+    background-image:  url("../../img/icones/email.svg");
+    background-repeat:  no-repeat;
+    padding-left:  28px;
+}
+.contato-endereco ul li + li {
+    margin-top:  2rem;
+}
+
+.contato-endereco ul li > p + p,
+.contato-endereco ul li address a + a {
+    margin-top:  .5rem;
+    display: block;
+}
+.contato-endereco ul li address a:last-child {
+    margin-top:  1.5rem;
+}
+.contato-endereco ul li:has( a[href^="./"]){
+    display:  flex;
+    gap:  20px;
+    align-items: center;
+}
+
+@media(max-width: 800px){
+    .contato {
+        grid-template-columns:  1fr;
+    }
+    .contato-dados {
+        border-radius:  5px 5px 0px 0px;
+    }
+    .contato-formulario {
+        border-radius:  0px 0px 5px 5px;
+
+    }
+}

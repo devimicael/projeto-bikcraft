@@ -20,6 +20,8 @@
     transition:  .3s;
     font-family: "Poppins";
     max-width:  max-content;
+    border:  none;
+    cursor: pointer;
 }
 .botao:hover{
     background:  linear-gradient(
