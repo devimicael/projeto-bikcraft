@@ -1,6 +1,5 @@
 
 .bicicletas-bg:nth-child(odd){
-    background-color: var(--cor-11) ;
     color:  var(--cor-4);
     background-image:  linear-gradient(to right,
         var(--cor-0)  25%, var(--cor-11) 0%

@@ -3,6 +3,9 @@
     grid-template-columns:  repeat(2, 1fr);
     background-color:  var(--cor-p1);
     overflow:  hidden;
+    background-image:  url("../../img/dec/bottom-right-p.svg");
+    background-repeat:  no-repeat;
+    background-position:  bottom 2rem right 40px;
 }
 
 .depoimento-img img {

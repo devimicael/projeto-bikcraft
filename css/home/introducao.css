@@ -1,5 +1,8 @@
 .introducao-bg {
     background-color:  #000000;
+    background-image:  url("../../img/dec/bottom-left.svg");
+    background-repeat:  no-repeat;
+    background-position:  bottom 160px left 20px;
     box-shadow:  0 -120px #FFF inset;
 }
 .introducao {
